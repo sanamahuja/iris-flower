@@ -19,3 +19,5 @@ model.fit(x,y)  # Training
 y = model.predict([[sepal_length,sepal_width,petal_length,petal_width]])
 y =iris.target_names[y[0]]
 st.title(f"The flower is {y}")
+
+
